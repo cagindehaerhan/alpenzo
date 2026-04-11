@@ -1,4 +1,4 @@
-import atypeBlack from "@/assets/atype-black.jpg";
+import tshirtCover from "@/assets/tshirt-cover.jpg";
 import design3 from "@/assets/design-3.jpeg";
 import productSweatshirt from "@/assets/product-sweatshirt.jpg";
 import signatureLogo from "@/assets/alpenzo-signature.png";
