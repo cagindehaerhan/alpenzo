@@ -16,7 +16,7 @@ export const categories: Category[] = [
     id: "tshirt",
     name: "T-Shirt",
     description: "Sadeliğin gücünü yansıtan tasarımlar",
-    coverImage: atypeBlack,
+    coverImage: tshirtCover,
   },
   {
     id: "sweatshirt",
@@ -61,7 +61,7 @@ import blackEmbroidery1 from "@/assets/essential/black-embroidery-1.jpg";
 import blackEmbroidery2 from "@/assets/essential/black-embroidery-2.jpg";
 import whiteCollection from "@/assets/essential/white-collection.png";
 import blackCollection from "@/assets/essential/black-collection.png";
-import atypeBlackDetail from "@/assets/essential/atype-black-detail.jpg";
+import atypeBlack from "@/assets/atype-black.jpg";
 import atypeWhiteDetail from "@/assets/essential/atype-white-detail.jpg";
 
 // --- Hoodie products ---
