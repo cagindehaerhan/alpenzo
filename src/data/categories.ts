@@ -1,6 +1,8 @@
 import tshirtCover from "@/assets/tshirt-cover.jpg";
 import design3 from "@/assets/design-3.jpeg";
 import productSweatshirt from "@/assets/product-sweatshirt.jpg";
+import sweatshirtBlack from "@/assets/sweatshirt-black.png";
+import sweatshirtWhite from "@/assets/sweatshirt-white.jpg";
 import signatureLogo from "@/assets/alpenzo-signature.png";
 
 export interface Category {
@@ -107,10 +109,16 @@ export const categoryProducts: Record<string, CategoryProduct[]> = {
   ],
   sweatshirt: [
     {
-      id: "peak-sweatshirt",
-      name: "Peak Sweatshirt",
-      image: productSweatshirt,
-      images: [productSweatshirt],
+      id: "sweatshirt-black",
+      name: "Sweatshirt — Siyah",
+      image: sweatshirtBlack,
+      images: [sweatshirtBlack],
+    },
+    {
+      id: "sweatshirt-white",
+      name: "Sweatshirt — Beyaz",
+      image: sweatshirtWhite,
+      images: [sweatshirtWhite],
     },
   ],
   hoodie: [
