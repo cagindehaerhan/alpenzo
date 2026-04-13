@@ -52,9 +52,9 @@ export interface CategoryProduct {
 import alpineWhite from "@/assets/tshirt/alpine-white.png";
 import alpineBlack from "@/assets/tshirt/alpine-black.png";
 import atypeBlackBack from "@/assets/tshirt/atype-black-back.jpg";
-import atypeBlackFront from "@/assets/tshirt/atype-black-front.jpg";
+import atypeBlackFrontPlain from "@/assets/tshirt/atype-black-front-plain.jpg";
 import atypeWhiteBack from "@/assets/tshirt/atype-white-back.jpg";
-import atypeWhiteFront from "@/assets/tshirt/atype-white-front.jpg";
+import atypeWhiteFrontPlain from "@/assets/tshirt/atype-white-front-plain.jpg";
 
 // --- Hoodie products ---
 import siyahHoodieV2 from "@/assets/signature/siyah-hoodie-v2.png";
@@ -80,14 +80,14 @@ export const categoryProducts: Record<string, CategoryProduct[]> = {
     {
       id: "atype-tee-black",
       name: "A-Type Tee — Siyah",
-      image: atypeBlackFront,
-      images: [atypeBlackFront, atypeBlackBack],
+      image: atypeBlackBack,
+      images: [atypeBlackBack, atypeBlackFrontPlain],
     },
     {
       id: "atype-tee-white",
       name: "A-Type Tee — Beyaz",
-      image: atypeWhiteFront,
-      images: [atypeWhiteFront, atypeWhiteBack],
+      image: atypeWhiteBack,
+      images: [atypeWhiteBack, atypeWhiteFrontPlain],
     },
   ],
   sweatshirt: [

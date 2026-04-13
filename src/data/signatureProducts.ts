@@ -78,17 +78,6 @@ export const signatureProducts: SignatureProduct[] = [
     category: "Polo",
   },
   {
-    id: "sig-label-black",
-    name: "Signature Label — Black",
-    description: "Detaylarda saklı mükemmellik",
-    longDescription:
-      "Alpenzo'nun imza etiketi, her parçanın özünde taşıdığı kalite ve özenin somut ifadesidir. Premium kumaş üzerine işlenmiş logo ve el yazısı signature detayı, markanın DNA'sını her dikişte hissettirir.",
-    coverImage: sigLabelDetail,
-    images: [sigLabelDetail, sigLabelAlpenzo],
-    details: ["Özel Dokuma Etiket", "Signature İşleme", "Premium Detay", "Sınırlı Üretim"],
-    category: "Tee",
-  },
-  {
     id: "sig-tee-elevation",
     name: "Signature Tee — Created for Elevation",
     description: "Yükseliş için yaratıldı",
