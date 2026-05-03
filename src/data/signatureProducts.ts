@@ -3,8 +3,11 @@ import whiteTeeFlat from "@/assets/signature/white-tee-flat.jpg";
 import blackTeeFlat from "@/assets/signature/black-tee-flat.jpg";
 import blackTeeDetail from "@/assets/signature/black-tee-detail.jpg";
 import poloBlackGreek from "@/assets/signature/polo-black-greek.jpg";
+import poloBlackGreekAlt from "@/assets/signature/polo-black-greek-2.jpg";
 import poloBlackMinimal from "@/assets/signature/polo-black-minimal.jpg";
+import poloBlackMinimalAlt from "@/assets/signature/polo-black-minimal-2.jpg";
 import poloWhite from "@/assets/signature/polo-white.png";
+import poloWhiteAlt from "@/assets/signature/polo-white-2.jpg";
 import sigLabelDetail from "@/assets/signature/sig-label-detail.jpg";
 import sigLabelAlpenzo from "@/assets/signature/sig-label-alpenzo.jpg";
 import sigTeeDetail from "@/assets/signature/sig-tee-detail.jpg";
@@ -51,7 +54,7 @@ export const signatureProducts: SignatureProduct[] = [
     longDescription:
       "Greek desenli yaka ve kol detaylarıyla klasik polo formunu Alpenzo'nun cesur tasarım diliyle yeniden yorumlar. Premium piké kumaşıyla üstün konfor sağlar.",
     coverImage: poloBlackGreek,
-    images: [poloBlackGreek],
+    images: [poloBlackGreek, poloBlackGreekAlt],
     details: ["Premium Piké Kumaş", "Greek Desen Detay", "Signature İşleme", "Sınırlı Üretim"],
     category: "Polo",
   },
@@ -62,7 +65,7 @@ export const signatureProducts: SignatureProduct[] = [
     longDescription:
       "Minimal siyah polo, Alpenzo'nun 'az çoktur' felsefesinin mükemmel bir yansımasıdır. İnce şerit detayları ve premium piké kumaşıyla zamansız bir elegans sunar.",
     coverImage: poloBlackMinimal,
-    images: [poloBlackMinimal],
+    images: [poloBlackMinimal, poloBlackMinimalAlt],
     details: ["Premium Piké Kumaş", "Slim Fit", "Minimal Şerit Detay", "Sınırlı Üretim"],
     category: "Polo",
   },
@@ -73,7 +76,7 @@ export const signatureProducts: SignatureProduct[] = [
     longDescription:
       "Beyaz Signature Polo, sadeliğin en zarif hâlidir. Gold detaylı premium piké kumaşıyla hem resmi hem günlük kullanıma uygun olan bu parça, koleksiyonun en çok yönlü üyesidir.",
     coverImage: poloWhite,
-    images: [poloWhite],
+    images: [poloWhite, poloWhiteAlt],
     details: ["Premium Piké Kumaş", "Slim Fit", "Gold Şerit Detay", "Sınırlı Üretim"],
     category: "Polo",
   },

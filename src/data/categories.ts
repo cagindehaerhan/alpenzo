@@ -50,7 +50,9 @@ export interface CategoryProduct {
 
 // --- T-Shirt products ---
 import alpineWhite from "@/assets/tshirt/alpine-white.png";
+import alpineWhiteAlt from "@/assets/tshirt/alpine-white-2.jpg";
 import alpineBlack from "@/assets/tshirt/alpine-black.png";
+import alpineBlackAlt from "@/assets/tshirt/alpine-black-2.jpg";
 import atypeBlackBack from "@/assets/tshirt/atype-black-back.jpg";
 import atypeBlackFrontPlain from "@/assets/tshirt/atype-black-front-plain.jpg";
 import atypeWhiteBack from "@/assets/tshirt/atype-white-back.jpg";
@@ -62,6 +64,8 @@ import beyazHoodieV2 from "@/assets/signature/beyaz-hoodie-v2.png";
 import siyahHoodie from "@/assets/signature/siyah-hoodie.png";
 import beyazHoodie from "@/assets/signature/beyaz-hoodie.png";
 import hoodieDesign2Black from "@/assets/signature/hoodie-design2-black.png";
+import sweatshirtBlackAlt from "@/assets/sweatshirt-black-2.jpg";
+import sweatshirtWhiteAlt from "@/assets/sweatshirt-white-2.jpg";
 
 export const categoryProducts: Record<string, CategoryProduct[]> = {
   tshirt: [
@@ -69,13 +73,13 @@ export const categoryProducts: Record<string, CategoryProduct[]> = {
       id: "alpine-tee-white",
       name: "Alpine Tee — Beyaz",
       image: alpineWhite,
-      images: [alpineWhite],
+      images: [alpineWhite, alpineWhiteAlt],
     },
     {
       id: "alpine-tee-black",
       name: "Alpine Tee — Siyah",
       image: alpineBlack,
-      images: [alpineBlack],
+      images: [alpineBlack, alpineBlackAlt],
     },
     {
       id: "atype-tee-black",
@@ -95,13 +99,13 @@ export const categoryProducts: Record<string, CategoryProduct[]> = {
       id: "sweatshirt-black",
       name: "Sweatshirt — Siyah",
       image: sweatshirtBlack,
-      images: [sweatshirtBlack],
+      images: [sweatshirtBlack, sweatshirtBlackAlt],
     },
     {
       id: "sweatshirt-white",
       name: "Sweatshirt — Beyaz",
       image: sweatshirtWhite,
-      images: [sweatshirtWhite],
+      images: [sweatshirtWhite, sweatshirtWhiteAlt],
     },
   ],
   hoodie: [
