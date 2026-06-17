@@ -82,28 +82,28 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <Mail className="text-primary mt-1" size={18} />
               <div>
-                <p className="font-body text-sm text-foreground">alp@sural.tr</p>
+                <a href="mailto:alp@sural.tr" className="font-body text-sm text-foreground hover:text-primary transition-colors">alp@sural.tr</a>
                 <p className="font-body text-xs text-muted-foreground mt-1">Genel Bilgi</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Phone className="text-primary mt-1" size={18} />
               <div>
-                <p className="font-body text-sm text-foreground">+90 532 229 95 62</p>
+                <a href="tel:+905322299562" className="font-body text-sm text-foreground hover:text-primary transition-colors">+90 532 229 95 62</a>
                 <p className="font-body text-xs text-muted-foreground mt-1">Pazartesi - Cumartesi, 09:00 - 18:00</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="text-primary mt-1" size={18} />
               <div>
-                <p className="font-body text-sm text-foreground">SULTAN SELİM MAH. ESKİ BÜYÜKDERE CAD. NO: 61 İÇ KAPI NO: 2 KAĞITHANE/ İSTANBUL</p>
+                <a href="https://maps.google.com/?q=Sultan+Selim+Mah.+Eski+Büyükdere+Cad.+No:61+Kağıthane+İstanbul" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-foreground hover:text-primary transition-colors">SULTAN SELİM MAH. ESKİ BÜYÜKDERE CAD. NO: 61 İÇ KAPI NO: 2 KAĞITHANE/ İSTANBUL</a>
                 <p className="font-body text-xs text-muted-foreground mt-1">Merkez Ofis</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Instagram className="text-primary mt-1" size={18} />
               <div>
-                <p className="font-body text-sm text-foreground">@alpenzo</p>
+                <a href="https://instagram.com/alpenzo" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-foreground hover:text-primary transition-colors">@alpenzo</a>
                 <p className="font-body text-xs text-muted-foreground mt-1">Bizi takip edin</p>
               </div>
             </div>
