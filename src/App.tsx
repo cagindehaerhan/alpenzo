@@ -8,6 +8,9 @@ import ProductDetail from "./pages/ProductDetail.tsx";
 import SignatureCollection from "./pages/SignatureCollection.tsx";
 import SignatureProductDetail from "./pages/SignatureProductDetail.tsx";
 import CategoryDetail from "./pages/CategoryDetail.tsx";
+import Login from "./pages/Login.tsx";
+import AuthCallback from "./pages/AuthCallback.tsx";
+import OAuthConsent from "./pages/OAuthConsent.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -24,6 +27,9 @@ const App = () => (
           <Route path="/category/:id" element={<CategoryDetail />} />
           <Route path="/signature" element={<SignatureCollection />} />
           <Route path="/signature/:id" element={<SignatureProductDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/auth/callback" element={<AuthCallback />} />
+          <Route path="/.lovable/oauth/consent" element={<OAuthConsent />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
